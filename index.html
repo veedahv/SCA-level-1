@@ -17,32 +17,35 @@
                 <label for="menu-checkbox" class="mobile-only">
                     <i class="fa fa-bars" aria-hidden="true"></i>
                 </label>
-                <input type="checkbox" name="menu-checkbox" id="menu-checkbox" class="menu-checkbox mobile-only">
+                <input type="checkbox" name="menu-checkbox" id="menu-checkbox" class="menu-checkbox">
                 <div class="mobile-menu mobile-only">
                     <ul class="mobile-nav-ul">
+                        <label for="menu-checkbox" class="mobile-only close">
+                            <i class="fa fa-close" aria-hidden="true"></i>                                    
+                                </label>
                         <li class="mobile-nav-li">
                             <a href="#home" class="navlink">
-                                <label for="menu-checkbox" class="mobile-only">home</label>
+                                home
                             </a>
                         </li>
                         <li class="mobile-nav-li">
                             <a href="#about" class="navlink">
-                                <label for="menu-checkbox" class="mobile-only">about</label>
+                                about
                             </a>
                         </li>
                         <li class="mobile-nav-li">
                             <a href="#project" class="navlink">
-                                <label for="menu-checkbox" class="mobile-only">projects</label>
+                                    projects
                             </a>
                         </li>
                         <li class="mobile-nav-li">
                             <a href="#testimonial" class="navlink">
-                                <label for="menu-checkbox" class="mobile-only">testimonial</label>
+                                testimonial
                             </a>
                         </li>
                         <li class="mobile-nav-li">
                             <a href="#contact" class="navlink">
-                                <label for="menu-checkbox" class="mobile-only">contact</label>
+                                contact
                             </a>
                         </li>
                     </ul>
@@ -73,7 +76,7 @@
         <section class="home" id="home">
             <div class="container">
                 <div class="home-box">
-                    <h1 class="home-intro">Hello, I'm Victoria!</h1>
+                   <h1 class="home-intro">Hello, I'm Victoria! 👋🏼</h1>
                     <h2 class="home-profile">a front-end developer</h2>
                     <p class="home-info">
                         I use HTML, CSS & Javascript to bring designs to life.
@@ -105,16 +108,18 @@
                         </p>
                         <p class="about-info-body">
                             I started programming March 2020. I am proficient in HTML, CSS,
-                            JavaScript. I started learning Vue Js in December though I have
-                            taken little break from the course cause of certain reasons.
+                            JavaScript. I started learning Vue Js in December but I will have
+                            to take a break off course to concentrate on exams.
                         </p>
                         <p class="about-info-end">
                             While not coding or learning, I enjoy watching movies, playing
                             games, reading good books, experimenting with baking ingredients,
                             and also spending time with friends and family.
                         </p>
-                        <a href="https://victoria-akpan.netlify.app/" class="btn portfolio-btn">Here is a link to my
+                        <a href="https://victoria-akpan.netlify.app/" class="btn portfolio-btn mr">Here is a link to my
                             portfolio</a>
+                        <a href="https://victoria-akpan.netlify.app/" class="btn portfolio-btn">Here is a link to my
+                            blog</a>
                     </div>
                 </div>
             </div>
@@ -203,8 +208,8 @@
                             <img src="./img/matoa.jpg" class="card-img" alt="...">
                             <div class="card-body">
                                 <p class="about-project">
-                                    I built a weather web app that can be used to check the
-                                    weather of any loation inputed by the user.
+                                    I reproduced a replica of a figma design using to the
+                                    appropriate front-end techniques an technologies.
                                 </p>
                                 <h4 class="card-title">Technologies used:</h4>
                                 <ul class="technologies">
@@ -212,11 +217,11 @@
                                     <li class="techniques">CSS</li>
                                     <li class="techniques">Bootstrap</li>
                                 </ul>
-                                <a href="https://veedahv-weather-app.netlify.app/" target="_blank"
+                                <a href="https://matoa.netlify.app//" target="_blank"
                                     rel="noopener noreferrer" class="btn mr">
                                     Live Demo
                                 </a>
-                                <a href="https://github.com/veedahv/weather-app" target="_blank"
+                                <a href="https://github.com/veedahv/matoa" target="_blank"
                                     rel="noopener noreferrer" class="btn">
                                     Repo Link
                                 </a>
@@ -365,12 +370,12 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <div class="container">
             <div class="connect-info ">
-                <div class="flex connect-info-contain">
+                <div class="connect-info-contain">
                     <div class="my">
-                        <h1>Connect With Me Via</h1>
+                        <h2 class="connect-tag">Connect With Me Via</h2>
                     </div>
                     <div class="social-media-icons my">
                         <a href="https://twitter.com/me_veey?s=03" target="_blank" rel="noopener noreferrer" class="">
